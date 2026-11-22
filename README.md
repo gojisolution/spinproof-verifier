@@ -32,7 +32,7 @@ Open https://gojisolution.github.io/spinproof-verifier/, paste a proof link and 
 runs [`js/spinproof-verify.mjs`](js/spinproof-verify.mjs) from this repository and talks only to the SpinProof
 API and, for scheduled draws, the drand network.
 
-### Python 3.10+
+### Python 3.11+
 
 ```sh
 python python/spinproof_verify.py https://spinproof.app/r/abc23xyz
@@ -60,7 +60,7 @@ PASSED: all 4 checks passed. Nothing was changed after the lock.
 The exit code is `0` when every check passed, `1` when a check failed and `2` when the proof could not be checked
 (not found, not revealed yet, no network). Add `--offline` to skip asking the drand network.
 
-### Node.js 20+
+### Node.js 22+
 
 ```sh
 node js/spinproof-verify.mjs https://spinproof.app/r/abc23xyz
