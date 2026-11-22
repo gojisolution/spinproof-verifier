@@ -1,0 +1,49 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '17 6 * * 1'   # weekly: also checks the live API still answers in the expected shape
+
+permissions:
+  contents: read
+
+jobs:
+  offline:
+    name: Offline tests (Python ${{ matrix.python }}, Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - { python: '3.10', node: '20' }
+          - { python: '3.13', node: '22' }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - run: python -m unittest discover -s tests -p "test_*.py" -v
+      - run: node --test tests/test_js.mjs
+
+  live:
+    name: Live example proof on spinproof.app
+    runs-on: ubuntu-latest
+    needs: offline
+    continue-on-error: true   # the network can fail; the offline tests decide the badge
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check the public example proof with both verifiers
+        run: |
+          python3 python/spinproof_verify.py https://spinproof.app/r/cdtupn9m
+          node js/spinproof-verify.mjs cdtupn9m
+      - name: Compare the scheduled-draw fixture with the drand network
+        run: |
+          python3 python/spinproof_verify.py --file fixtures/v1-drand.json
+          node js/spinproof-verify.mjs --file fixtures/v1-drand.json
