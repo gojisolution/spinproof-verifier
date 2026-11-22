@@ -1,0 +1,28 @@
+{
+    "about": "Known answers shared with SpinProof's own tests (tests/Unit/SpinPickerTest.php, tests/js/picker.test.js). Any implementation of the maths must give exactly these.",
+    "secret": "00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff",
+    "client_seed": "ffeeddccbbaa99887766554433221100ffeeddccbbaa99887766554433221100",
+    "entries": ["Aisha", "Ben", "Chloé", "Diego", "Emeka"],
+    "fingerprint": "efabca265b83225159c1135394afa6dc694e2a3a24a4a8ccd68c8cbc81532357",
+    "lock_v1": "2a8abfa8cb9906290437854193ca6bca41d4d4e26d1d454bd66a35158095e737",
+    "pick_v1_2": [1, 0],
+    "weighted": {
+        "entries": ["Aisha *3", "Ben", "Chloé x2", "Diego ×4", "Emeka"],
+        "fingerprint": "b0e7dfca6a1ae9a628ca07a6eed081a5e30343de3952d42960031bfc9869ea89",
+        "weights": [3, 1, 2, 4, 1],
+        "pick_v1_3": [3, 2, 4]
+    },
+    "v2": {
+        "statement": "spinproof-v2:efabca265b83225159c1135394afa6dc694e2a3a24a4a8ccd68c8cbc81532357:5:pick:2:0:0:-",
+        "lock": "de3afca25b9862b8372ce1e11888958f748969c0bbe3b7c2941cf810fecb6e7e",
+        "seed": "366234bc6ca2388555875993a4f3c772f855a98191b00ff8d70b96af6349730d",
+        "pick_2": [3, 2],
+        "seed_without_browser_number": "f8172ac8e14efbcb2ff023a7f60316bd42e570b8090d18076b6ea94ac37b1585"
+    },
+    "v2_linked": {
+        "prizes": ["Mug", "Cap", "Pen"],
+        "prizes_fingerprint": "aa3c8da1670dc48a96a8dd51a029cd88f53ad37a6c84d73636546bf7c1443426",
+        "lock": "36e0378f2906d02479971a67281f3b7d6585e371e05f2d6c91266b7fcde790df",
+        "prize_pick_2": [1, 0]
+    }
+}

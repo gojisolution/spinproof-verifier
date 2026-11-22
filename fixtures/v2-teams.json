@@ -1,0 +1,89 @@
+{
+    "id": "example-v2-teams",
+    "title": "Example v2-teams",
+    "spin_number": 1,
+    "entries_count": 6,
+    "entries": [
+        "Aisha",
+        "Ben",
+        "Chloé",
+        "Diego",
+        "Emeka",
+        "Farah"
+    ],
+    "winners_count": 6,
+    "mode": "teams",
+    "teams_count": 2,
+    "teams": [
+        [
+            {
+                "index": 1,
+                "name": "Ben"
+            },
+            {
+                "index": 5,
+                "name": "Farah"
+            },
+            {
+                "index": 4,
+                "name": "Emeka"
+            }
+        ],
+        [
+            {
+                "index": 2,
+                "name": "Chloé"
+            },
+            {
+                "index": 3,
+                "name": "Diego"
+            },
+            {
+                "index": 0,
+                "name": "Aisha"
+            }
+        ]
+    ],
+    "weighted": false,
+    "weights": null,
+    "drand": null,
+    "fingerprint": "218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315",
+    "prize_title": null,
+    "prizes": null,
+    "prizes_fingerprint": null,
+    "prize_winners": null,
+    "commitment": "987b8b2420b28c4d81a9a2f90a8393e5eef6886cccca6eff5c4dbd8c2936bc5f",
+    "version": 2,
+    "statement": "spinproof-v2:218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315:6:teams:6:2:0:-",
+    "client_seed": "979b49921c2d462a43e5d9ef0662d904dd224c81ad2bc75fc3f322604bf184b8",
+    "locked_at": "2026-11-22T06:46:35.524Z",
+    "revealed_at": "2026-11-22T06:46:35.530Z",
+    "secret": "909a974bc2d6abf4fbe870d98677b498c2c47e132181b9f6f72f43483d8d0414",
+    "winners": [
+        {
+            "index": 1,
+            "name": "Ben"
+        },
+        {
+            "index": 2,
+            "name": "Chloé"
+        },
+        {
+            "index": 5,
+            "name": "Farah"
+        },
+        {
+            "index": 3,
+            "name": "Diego"
+        },
+        {
+            "index": 4,
+            "name": "Emeka"
+        },
+        {
+            "index": 0,
+            "name": "Aisha"
+        }
+    ],
+    "proof_url": null
+}

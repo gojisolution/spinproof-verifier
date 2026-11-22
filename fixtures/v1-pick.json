@@ -1,0 +1,44 @@
+{
+    "id": "example-v1-pick",
+    "title": "Example v1-pick",
+    "spin_number": 1,
+    "entries_count": 6,
+    "entries": [
+        "Aisha",
+        "Ben",
+        "Chloé",
+        "Diego",
+        "Emeka",
+        "Farah"
+    ],
+    "winners_count": 2,
+    "mode": "pick",
+    "teams_count": null,
+    "teams": null,
+    "weighted": false,
+    "weights": null,
+    "drand": null,
+    "fingerprint": "218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315",
+    "prize_title": null,
+    "prizes": null,
+    "prizes_fingerprint": null,
+    "prize_winners": null,
+    "commitment": "ff7b5ac824ae460805b1c5230f844c772c784edc3c5bec511b3d90a51b1670ad",
+    "version": 1,
+    "statement": null,
+    "client_seed": null,
+    "locked_at": "2026-11-22T06:46:35.083Z",
+    "revealed_at": "2026-11-22T06:46:35.243Z",
+    "secret": "4ff96f10ccb93bd031075967dd10a34f86427abdc32b78700ba03629f0230fb9",
+    "winners": [
+        {
+            "index": 2,
+            "name": "Chloé"
+        },
+        {
+            "index": 4,
+            "name": "Emeka"
+        }
+    ],
+    "proof_url": null
+}

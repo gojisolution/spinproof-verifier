@@ -1,0 +1,60 @@
+{
+    "id": "example-v1-eliminate",
+    "title": "Example v1-eliminate",
+    "spin_number": 1,
+    "entries_count": 6,
+    "entries": [
+        "Aisha",
+        "Ben",
+        "Chloé",
+        "Diego",
+        "Emeka",
+        "Farah"
+    ],
+    "winners_count": 6,
+    "mode": "eliminate",
+    "teams_count": null,
+    "teams": null,
+    "weighted": false,
+    "weights": null,
+    "drand": null,
+    "fingerprint": "218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315",
+    "prize_title": null,
+    "prizes": null,
+    "prizes_fingerprint": null,
+    "prize_winners": null,
+    "commitment": "77d6ca74376bedcb01f7d64fa44d0be10327800943735315e19f16d3c73d6ea3",
+    "version": 1,
+    "statement": null,
+    "client_seed": null,
+    "locked_at": "2026-11-22T06:46:35.339Z",
+    "revealed_at": "2026-11-22T06:46:35.346Z",
+    "secret": "e37b175c57be34aa6dc1c50bcf593fb5912803878ad89dbbdeb34a45fc6ba578",
+    "winners": [
+        {
+            "index": 3,
+            "name": "Diego"
+        },
+        {
+            "index": 4,
+            "name": "Emeka"
+        },
+        {
+            "index": 5,
+            "name": "Farah"
+        },
+        {
+            "index": 0,
+            "name": "Aisha"
+        },
+        {
+            "index": 2,
+            "name": "Chloé"
+        },
+        {
+            "index": 1,
+            "name": "Ben"
+        }
+    ],
+    "proof_url": null
+}

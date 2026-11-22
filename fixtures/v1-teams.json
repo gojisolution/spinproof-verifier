@@ -1,0 +1,91 @@
+{
+    "id": "example-v1-teams",
+    "title": "Example v1-teams",
+    "spin_number": 1,
+    "entries_count": 6,
+    "entries": [
+        "Aisha",
+        "Ben",
+        "Chloé",
+        "Diego",
+        "Emeka",
+        "Farah"
+    ],
+    "winners_count": 6,
+    "mode": "teams",
+    "teams_count": 3,
+    "teams": [
+        [
+            {
+                "index": 5,
+                "name": "Farah"
+            },
+            {
+                "index": 4,
+                "name": "Emeka"
+            }
+        ],
+        [
+            {
+                "index": 1,
+                "name": "Ben"
+            },
+            {
+                "index": 0,
+                "name": "Aisha"
+            }
+        ],
+        [
+            {
+                "index": 2,
+                "name": "Chloé"
+            },
+            {
+                "index": 3,
+                "name": "Diego"
+            }
+        ]
+    ],
+    "weighted": false,
+    "weights": null,
+    "drand": null,
+    "fingerprint": "218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315",
+    "prize_title": null,
+    "prizes": null,
+    "prizes_fingerprint": null,
+    "prize_winners": null,
+    "commitment": "b30078709984613a71d545d3b0d5881dbda5678c54f717bb6eac6696ce4e5096",
+    "version": 1,
+    "statement": null,
+    "client_seed": null,
+    "locked_at": "2026-11-22T06:46:35.313Z",
+    "revealed_at": "2026-11-22T06:46:35.321Z",
+    "secret": "efdcde370ec59ac1ad1478290bcffb3d444c1385484b14e7b707d36e22b6ffd2",
+    "winners": [
+        {
+            "index": 5,
+            "name": "Farah"
+        },
+        {
+            "index": 1,
+            "name": "Ben"
+        },
+        {
+            "index": 2,
+            "name": "Chloé"
+        },
+        {
+            "index": 4,
+            "name": "Emeka"
+        },
+        {
+            "index": 0,
+            "name": "Aisha"
+        },
+        {
+            "index": 3,
+            "name": "Diego"
+        }
+    ],
+    "proof_url": null
+}

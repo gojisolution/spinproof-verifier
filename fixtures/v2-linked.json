@@ -1,0 +1,58 @@
+{
+    "id": "example-v2-linked",
+    "title": "Example v2-linked",
+    "spin_number": 1,
+    "entries_count": 6,
+    "entries": [
+        "Aisha",
+        "Ben",
+        "Chloé",
+        "Diego",
+        "Emeka",
+        "Farah"
+    ],
+    "winners_count": 2,
+    "mode": "linked",
+    "teams_count": null,
+    "teams": null,
+    "weighted": false,
+    "weights": null,
+    "drand": null,
+    "fingerprint": "218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315",
+    "prize_title": "Prize",
+    "prizes": [
+        "Mug",
+        "Cap",
+        "Pen",
+        "Book"
+    ],
+    "prizes_fingerprint": "9910b81bc42f2615561643029c56c92b1189aa352b18b81cf7efa189275afbf5",
+    "prize_winners": [
+        {
+            "index": 1,
+            "name": "Cap"
+        },
+        {
+            "index": 2,
+            "name": "Pen"
+        }
+    ],
+    "commitment": "c4dd64d3223f56ce69e5dea7c1d57598b2cf249ea1d90ad6d1a2b0c15bbf588d",
+    "version": 2,
+    "statement": "spinproof-v2:218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315:6:linked:2:0:0:9910b81bc42f2615561643029c56c92b1189aa352b18b81cf7efa189275afbf5",
+    "client_seed": "7dea02ffefe922f86a34a6897c2da467e6874d60148daf1bc7bbf0919961aa42",
+    "locked_at": "2026-11-22T06:46:35.585Z",
+    "revealed_at": "2026-11-22T06:46:35.590Z",
+    "secret": "19bf597b3d9fcbd3d1f462b33bed643a7cdbcd7b06577ba9cdc16211aa844788",
+    "winners": [
+        {
+            "index": 4,
+            "name": "Emeka"
+        },
+        {
+            "index": 3,
+            "name": "Diego"
+        }
+    ],
+    "proof_url": null
+}

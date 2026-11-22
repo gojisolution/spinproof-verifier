@@ -1,0 +1,38 @@
+{
+    "id": "example-v1-weighted-hidden",
+    "title": "Example v1-weighted-hidden",
+    "spin_number": 1,
+    "entries_count": 4,
+    "entries": null,
+    "winners_count": 1,
+    "mode": "pick",
+    "teams_count": null,
+    "teams": null,
+    "weighted": true,
+    "weights": [
+        3,
+        1,
+        2,
+        4
+    ],
+    "drand": null,
+    "fingerprint": "cb9eeeebaedb3cfc3d474f8d694771512cb14a14ac2abe2ff03347379cfd6d0b",
+    "prize_title": null,
+    "prizes": null,
+    "prizes_fingerprint": null,
+    "prize_winners": null,
+    "commitment": "f00c07755f3b984c560331431bac2eb7c3704e59fbbe56478d5bc8ab2e759b3f",
+    "version": 1,
+    "statement": null,
+    "client_seed": null,
+    "locked_at": "2026-11-22T06:46:35.279Z",
+    "revealed_at": "2026-11-22T06:46:35.284Z",
+    "secret": "d31b8266a1284cde3ec0ea99f67760c1ceca3511aaf858888fde42f3183d7129",
+    "winners": [
+        {
+            "index": 0,
+            "name": "Aisha"
+        }
+    ],
+    "proof_url": null
+}

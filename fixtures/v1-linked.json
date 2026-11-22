@@ -1,0 +1,58 @@
+{
+    "id": "example-v1-linked",
+    "title": "Example v1-linked",
+    "spin_number": 1,
+    "entries_count": 6,
+    "entries": [
+        "Aisha",
+        "Ben",
+        "Chloé",
+        "Diego",
+        "Emeka",
+        "Farah"
+    ],
+    "winners_count": 2,
+    "mode": "linked",
+    "teams_count": null,
+    "teams": null,
+    "weighted": false,
+    "weights": null,
+    "drand": null,
+    "fingerprint": "218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315",
+    "prize_title": "Prize",
+    "prizes": [
+        "Mug",
+        "Cap",
+        "Pen",
+        "Book"
+    ],
+    "prizes_fingerprint": "9910b81bc42f2615561643029c56c92b1189aa352b18b81cf7efa189275afbf5",
+    "prize_winners": [
+        {
+            "index": 1,
+            "name": "Cap"
+        },
+        {
+            "index": 2,
+            "name": "Pen"
+        }
+    ],
+    "commitment": "d4bd8b1d4430f3cad19ea6760aa8fc22b7b2331a2c27da153da84459542ab18b",
+    "version": 1,
+    "statement": null,
+    "client_seed": null,
+    "locked_at": "2026-11-22T06:46:35.369Z",
+    "revealed_at": "2026-11-22T06:46:35.377Z",
+    "secret": "02751cd1aabe2d7e2ab00719bff758db7a4617f7e77ae793ea4620975ec398f2",
+    "winners": [
+        {
+            "index": 0,
+            "name": "Aisha"
+        },
+        {
+            "index": 1,
+            "name": "Ben"
+        }
+    ],
+    "proof_url": null
+}

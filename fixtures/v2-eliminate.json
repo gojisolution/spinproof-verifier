@@ -1,0 +1,60 @@
+{
+    "id": "example-v2-eliminate",
+    "title": "Example v2-eliminate",
+    "spin_number": 1,
+    "entries_count": 6,
+    "entries": [
+        "Aisha",
+        "Ben",
+        "Chloé",
+        "Diego",
+        "Emeka",
+        "Farah"
+    ],
+    "winners_count": 6,
+    "mode": "eliminate",
+    "teams_count": null,
+    "teams": null,
+    "weighted": false,
+    "weights": null,
+    "drand": null,
+    "fingerprint": "218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315",
+    "prize_title": null,
+    "prizes": null,
+    "prizes_fingerprint": null,
+    "prize_winners": null,
+    "commitment": "87450a203bc21d997363cb073c770703aacf74b38e2b3b268f0570cb203d71e3",
+    "version": 2,
+    "statement": "spinproof-v2:218da5588339d6fab6025f594187685a8234648a23a0f3e8d16865036bdf9315:6:eliminate:6:0:0:-",
+    "client_seed": "de8f4e5b78f84b7014acb220f45e4ddebf61a3cb841ca3363dc7be58bab216a1",
+    "locked_at": "2026-11-22T06:46:35.553Z",
+    "revealed_at": "2026-11-22T06:46:35.562Z",
+    "secret": "bc3c2f966a185534217653b9d916689913fd9831c86247c5cb0d4d86148c5181",
+    "winners": [
+        {
+            "index": 0,
+            "name": "Aisha"
+        },
+        {
+            "index": 5,
+            "name": "Farah"
+        },
+        {
+            "index": 1,
+            "name": "Ben"
+        },
+        {
+            "index": 3,
+            "name": "Diego"
+        },
+        {
+            "index": 2,
+            "name": "Chloé"
+        },
+        {
+            "index": 4,
+            "name": "Emeka"
+        }
+    ],
+    "proof_url": null
+}

@@ -1,0 +1,50 @@
+{
+    "id": "example-v1-drand",
+    "title": "Example drand draw",
+    "spin_number": 1,
+    "entries_count": 5,
+    "entries": [
+        "Aisha",
+        "Ben",
+        "Chloé",
+        "Diego",
+        "Emeka"
+    ],
+    "winners_count": 2,
+    "mode": "pick",
+    "teams_count": null,
+    "teams": null,
+    "weighted": false,
+    "weights": null,
+    "drand": {
+        "round": 12000000,
+        "signature": "8054d55cbf1152bd7e53bab3f461861d9a93b4ac8eb6cb71ff6eaa9fe46c1c95d89818c066f55623e0ca78e15218ef7b",
+        "randomness": "41e8c033444da85ee36131e5dc4907a27ae82573a13be8362c4c0744683de230",
+        "chain": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+        "url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/12000000",
+        "entries_closed_at": "2024-10-13T07:09:22.750Z"
+    },
+    "fingerprint": "efabca265b83225159c1135394afa6dc694e2a3a24a4a8ccd68c8cbc81532357",
+    "prize_title": null,
+    "prizes": null,
+    "prizes_fingerprint": null,
+    "prize_winners": null,
+    "commitment": "2c2d58919e0c957c4d4952e8c9d15f98aaccd1dbc0576eaf1c5a36b87e4203fe",
+    "version": 1,
+    "statement": null,
+    "client_seed": null,
+    "locked_at": "2024-10-13T06:09:22.750Z",
+    "revealed_at": "2024-10-13T07:09:24.750Z",
+    "secret": "7213fadd54623955af62c240031b45e5584b6b5cf95f0810de76037d779419c8",
+    "winners": [
+        {
+            "index": 2,
+            "name": "Chloé"
+        },
+        {
+            "index": 0,
+            "name": "Aisha"
+        }
+    ],
+    "proof_url": null
+}

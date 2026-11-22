@@ -1,0 +1,47 @@
+{
+    "id": "example-v2-weighted",
+    "title": "Example v2-weighted",
+    "spin_number": 1,
+    "entries_count": 4,
+    "entries": [
+        "Aisha *3",
+        "Ben",
+        "Chloé x2",
+        "Diego ×4"
+    ],
+    "winners_count": 2,
+    "mode": "pick",
+    "teams_count": null,
+    "teams": null,
+    "weighted": true,
+    "weights": [
+        3,
+        1,
+        2,
+        4
+    ],
+    "drand": null,
+    "fingerprint": "cb9eeeebaedb3cfc3d474f8d694771512cb14a14ac2abe2ff03347379cfd6d0b",
+    "prize_title": null,
+    "prizes": null,
+    "prizes_fingerprint": null,
+    "prize_winners": null,
+    "commitment": "cda21576951a826c1f5aa2cdb711dee9da95d479d66f333b314f064ba2972bea",
+    "version": 2,
+    "statement": "spinproof-v2:cb9eeeebaedb3cfc3d474f8d694771512cb14a14ac2abe2ff03347379cfd6d0b:4:pick:2:0:1:-",
+    "client_seed": "0092a0b10f23271f67bf045a11f3c0933aaa957cf7671eaffe607754bd7a975d",
+    "locked_at": "2026-11-22T06:46:35.498Z",
+    "revealed_at": "2026-11-22T06:46:35.504Z",
+    "secret": "58fdb9ab377c34338eeb4a2fb3310fec6bdba7196fca20aca62bccce81e50278",
+    "winners": [
+        {
+            "index": 1,
+            "name": "Ben"
+        },
+        {
+            "index": 0,
+            "name": "Aisha"
+        }
+    ],
+    "proof_url": null
+}
