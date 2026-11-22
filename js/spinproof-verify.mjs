@@ -1,4 +1,4 @@
-// Independent verifier for SpinProof proofs (https://spinproof.app), for browsers and Node.js 18+.
+// Independent verifier for SpinProof proofs (https://spinproof.app), for browsers and Node.js 20+.
 // No dependencies. It repeats every check of a SpinProof proof page with the Web Crypto API.
 //
 //   node js/spinproof-verify.mjs https://spinproof.app/r/abc23xyz
